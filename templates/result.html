@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    The Result is {{ans}}
+
+    <a href="{% url 'home' %}">Click here to go back</a>
+  </body>
+  <form action="{% url 'result1' %}" >
+    Enter how many hours you study:
+    <input type="text" required name="Study_hour" >
+    <br><br>
+      <input type="submit" name="" value="submit">
+</form>
+</html>
