@@ -6,7 +6,29 @@
    <link rel="stylesheet" href="{% static 'style1.css'%}">
    <link rel="stylesheet" href="{% static 'style2.css'%}">
 
+   <style media="screen">
+     .section-footer{
+       background: darkblue;
+       transition: all 0.7s linear;
+     }
+      h3{
+       color: whitesmoke;
+       margin-bottom: 3rem;
+     }
+     .footer-about p{
+       color: grey;
+       font-size: 1.5rem;
+     }
+     .footer-links li ion-icon{
+       color: grey;
+       font-size: 1.4rem;
+     }
+   </style>
+
     <body>
+
+<section class="section section-footer">
+
 
 <footer class="footer">
 
@@ -88,6 +110,8 @@
         </div>
     </div>
 </footer>
+
+</section>
 
 <script>
     const CounterNum = document.querySelectorAll(".counter-numbers");

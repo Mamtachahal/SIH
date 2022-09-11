@@ -16,6 +16,6 @@ def result(request):
     lis.append(request.GET['Computers(optional)'])
     print(lis)
     ans=cls.predict([lis])
-    
+
 
     return render(request,"result.html",{'ans':ans})
